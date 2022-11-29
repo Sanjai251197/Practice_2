@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>PRISM</title>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container-fluid">
+            <div class="logo">PRISM</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--- Image Slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up" data-aos-offset="200"
+        data-aos-delay="50" data-aos-duration="1000">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active justify-content-center">
+                <img class="d-block w-100" src="img/Kodai_Trip_1.jpg">
+                <p>Kodaikanal Trip on 2018</p>
+            </div>
+            <div class="carousel-item justify-content-center">
+                <img class="d-block w-100" src="img/Ooty_Trip_2019.JPG">
+                <p>Ooty Trip on 2019</p>
+            </div>
+            <div class="carousel-item justify-content-center">
+                <img class="d-block w-100" src="img/Thekkady_Trip_2022.jpg">
+                <p>Thekkady Trip on 2022</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
